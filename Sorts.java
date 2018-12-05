@@ -1,3 +1,6 @@
+import java.io.*;
+import java.util.*;
+
 public class Sorts {
      public static void selectionSort(int[] input) {
           for (int i = 0; i < input.length; i++) {
@@ -13,5 +16,10 @@ public class Sorts {
                     input[q] = hold;
                }
           }
+     }
+     public static void main(String[] args) {
+          int[] testary1 = {51, 3, 6, -4, 8, 99, 10, 1, 7};
+          selectionSort(testary1);
+          System.out.println(Arrays.toString(testary1));
      }
 }
