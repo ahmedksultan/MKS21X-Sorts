@@ -26,7 +26,7 @@ public class Sorts {
      }
      public static void main(String[] args) {
           //testing
-          int[] testary1 = {51, 3, 6, -4, 8, 99, 10, 1, 7};
+          int[] testary1 = {51, 3, 6, -4, 8, 99, 10, 1, 7, 66, 44, 33, 22, 1, 88, 9, 7, 5, -43, 6, 7, 9};
           selectionSort(testary1);
           System.out.println(Arrays.toString(testary1));
      }
