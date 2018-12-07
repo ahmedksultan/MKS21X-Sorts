@@ -51,7 +51,6 @@ public class Sorts {
                          int tempval = input[q];
                          input[q] = input[q+1];
                          input[q+1] = tempval;
-                         System.out.println(Arrays.toString(input));
                     }
                }
           }
